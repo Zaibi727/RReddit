@@ -1,0 +1,350 @@
+.TopNav{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    padding: 0px 30px;
+    height: 50px;
+    background-color: white;
+}
+.reddit-icon-div{
+    display: flex;
+    align-items: center;
+}
+.reddit-icon-div span{
+    color: rgb(255, 85, 55);
+    margin-right: 5px;
+}
+.reddit-icon-div h2{
+    font-family: cursive;
+}
+
+
+/*--reddit-icon-div--*/
+.searchbar-component-div{
+    max-width:100%;
+    width: 55%;  
+}
+
+.topNav-btn-div{
+    display: flex;
+}
+
+#login-btn{
+   padding: 5px 30px;
+    border-radius: 30px;
+    font-weight: 800;
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+}
+#login-btn:hover{
+    background-color: whitesmoke;
+}
+#signup-btn{
+    padding: 5px 30px;
+    border-radius: 30px;
+    font-weight: 800;
+    margin-left: 20px;
+    color: white;
+    background-color: blue;
+    border: 1px solid blue;
+}
+
+/*--login-and-signup-btn--*/
+
+.topnav-dropdown-button{
+    display: flex;
+    align-items: center;
+    border: none;
+    color: gray;
+    background-color: white;
+}
+.topnav-dropdown-button:hover{
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid lightgray;
+}
+.caret-down{
+    padding: 10px 0px;
+     margin-left: 30px;
+}
+
+/*--below-about modal of sign in--*/
+.modal-login-section-wrapper{
+    width: 70%;
+    max-width: 100%;
+    height: 700px;
+    margin:0 auto;
+    border:  none;
+    position: relative;
+}
+.sign-in-modal-section{
+    background-color: white;
+    max-width: 100%;
+    height: 700px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.sign-in-modal-section-div-one{
+   max-width: 100%;
+   max-height: 100%;
+}
+/*--below-div-two--*/
+
+.sign-in-modal-section-div-two{
+    padding: 0px 20px;
+}
+.sign-in-modal-section-div-two-a{
+    margin-bottom: 20px;
+}
+.sign-in-modal-section-div-two-a h3{
+     margin-bottom: -8px;
+}
+.sign-in-modal-section-div-two-a p{
+    margin-top: 8px;
+}
+.sign-in-modal-section-div-two-b button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    max-width: 100%;
+    padding: 0px 35px;
+    border: 1px solid rgb(90, 90, 252);
+    background-color: white;
+    margin-bottom: 8px;
+}
+.sign-in-modal-section-div-two-b button h4{
+    color: blue;
+}
+.fa-google{
+    color: red;
+}
+.fa-envelope{
+    color: black;
+}
+.fa-envelope{
+    color: rgb(73, 73, 252);
+}
+.sign-in-modal-section-div-two-c{
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+}
+.sign-in-modal-section-div-two-c h4{
+    margin: 0px 5px;
+    color: grey;
+    font-weight: 500;
+}
+.sign-in-modal-section-div-two-c::before{
+  content: "";
+  display: inline-block;
+  width: 130px;
+  height: 1px;
+  background-color: rgb(139, 138, 138);
+
+}
+.sign-in-modal-section-div-two-c::after{
+    content: "";
+    display: inline-block;
+    width: 130px;
+    height: 1px;
+    background-color: rgb(125, 125, 126);
+  
+  }
+  /*--form that exist below OR--*/
+
+  .sign-in-modal-section-div-two-d form input{
+    width: 300px;
+    max-width: 100%;
+    padding: 12px 0px;
+    border: 1px solid rgb(224, 224, 252);
+    background-color: white;
+    margin-bottom: 8px;
+  }
+  .sign-in-modal-section-div-two-d form input::placeholder{
+       font-size: 12px;
+       font-weight: 600;
+  }
+  .btn-sbmt{
+      background-color: blue !important;
+      color: white !important;
+      border-radius: 30px;
+      font-size: 16px;
+      font-weight: 600;
+  }
+
+  .usernm-blue{
+      color: blue;
+  }
+  .forgot{
+      font-size: 14px;
+  }
+  strong{
+      color: blue;
+  }
+
+  /*--below-cancel-button--*/
+  .modal-edit-adress-cancel-btn{
+      position: absolute;
+      right: 1px;
+      top: 1px;
+      border: none;
+     background-color: white !important;
+  }
+
+
+  /*--below right btn modal--third--*/
+
+  .right-btn-modal{
+       width: 180px;
+       max-width: 100%;
+       background-color: white;
+       float: right;
+       margin-top: 52px;
+       border: 1px solid lightgray;
+  }
+  .moon{
+      width: 20px;
+  }
+  .right-btn-modal-section-div-one h6{
+      margin-top: 8px;
+      margin-bottom: 8px;
+      margin-left: 10px;
+      color: rgb(90, 89, 89); 
+  }
+  .right-btn-modal-section-div-one-a{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-left: 10px;
+  }
+  .right-btn-modal-section-div-two h6{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: rgb(90, 89, 89);
+    margin-left: 10px;
+  }
+.right-btn-modal-section-div-two-a{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.right-btn-modal-section-div-two-a:hover{
+   background-color: blue;
+}
+.right-btn-modal-section-div-two-a i{
+    margin-right: 10px;
+    color: gray;
+}
+.right-btn-modal-section-div-two-a i:hover{
+   color: white;
+}
+.right-btn-modal-section-div-two-a h5{
+    color: rgb(105, 105, 105);
+}
+.right-btn-modal-section-div-two-a h5:hover{
+    color: rgb(255, 255, 255);
+}
+.reddit-coin h5{
+        margin-bottom: 8px;
+        color: rgb(71, 71, 71);
+}
+.reddit-coin p{
+    margin-top: -9px;
+}
+#login-signup{
+    border-top: 1px solid lightgray;
+}
+
+
+
+  /*--toogle btn--below--*/
+
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 22px;
+    width: 24px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #000000;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #000000;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+
+  /*--below for tablet size  responsivenes--*/
+
+  @media only screen and (max-width: 780px){
+    #login-btn{
+        padding: 2px 20px;
+         border-radius: 20px;
+         font-weight: 600;
+         margin-left: 20px;
+         background-color: white;
+         color: blue;
+         border: 1px solid blue;
+     }
+     #signup-btn{
+         padding: 2px 20px;
+         border-radius: 20px;
+         font-weight: 600;
+         margin:0px 20px;
+     }
+  }

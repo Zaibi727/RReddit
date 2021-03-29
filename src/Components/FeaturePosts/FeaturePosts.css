@@ -1,0 +1,166 @@
+.FearturePosts{
+    background-color: violet;
+    width: 100%;
+    max-width: 350px;
+}
+.feature-post-section-one-div-one{
+    text-align: left;
+  height: 80px;
+}
+.bar-heading-top{
+    color: white;
+    padding-top: 50px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.gaming-community-member{
+    display: flex;
+    padding: 15px;
+    background-color: white;
+     border-bottom: 1px solid lightgrey;
+}
+.gaming-community-member span{
+    margin-right: 10px;
+}
+.green{
+    color: rgb(49, 216, 49);
+}
+.view-all-btn{
+    margin-top: 15px;
+    padding: 9px 0px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(81, 81, 245);
+    border: none;
+    width: 100%;
+    max-width: 300px;
+}
+.gaming-community-links{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.gaming-community-links a{
+    padding: 4px;
+    margin-right: 5px;
+    background-color: rgb(238, 238, 240);
+    border-radius: 30px;
+    color: blue;
+    font-weight: 700;
+}
+.gaming-community-links a:hover{
+    background-color: rgb(212, 212, 252);
+}
+
+/*--section-one-end--*/
+
+.feature-post-section-two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.fa-slack{
+    color: orange;
+}
+.feature-post-section-two-div-two h6{
+      margin-bottom: 8px;
+      margin-top: 8px;
+      text-align: left;
+}
+.feature-post-section-two-div-two p{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-align: left;
+    font-size: 12px;
+}
+.feature-post-section-two-div-three button{
+    padding: 7px 20px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: orange;
+}
+
+/*--section-two--*/
+
+.feature-post-section-three{
+    border: 1px solid rgb(224, 220, 220);
+    text-align: left;
+    padding: 10px;
+    background-color: white;
+}
+.feature-post-section-three-div-one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.movie-detial{
+    margin-left: -17px;
+}
+.movie-detial h6{
+    margin-bottom: 8px;
+}
+.movie-detial p{
+    margin-top: 8px;
+   
+}
+.movie-detial-join-btn{
+    padding: 7px 35px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: orange;
+}
+
+/*--section-three--*/
+.feature-post-section-four{
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.feature-post-section-four-div{
+    padding:0px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+/*--section-four--*/
+.feature-posts-section-five-div-wrapper{
+   display: grid;
+   grid-template-columns: 48% 48%;
+   column-gap: 4%;
+   text-align: left;
+   background-color: white;
+}
+.feature-posts-section-five{
+    background-color: white;
+    border: 1px solid lightgray;
+    padding: 15px;
+}
+.feature-posts-section-five-div-wrapper-div-one{
+   flex-direction: column;
+   display: flex;
+}
+.feature-posts-section-five-div-wrapper-div-one a{
+    margin-bottom: 10px;
+ }
+.feature-posts-section-five-div-wrapper-div-two{
+    flex-direction: column;
+    display: flex;
+ }
+ .feature-posts-section-five-div-wrapper-div-two p{
+   margin-bottom: 20px;
+ }
+.feature-post-copyright{
+    margin-bottom: -5px;
+}
+
+
+/*---Modal-one---*/
